@@ -1,0 +1,12 @@
+Standard RAG vs Agentic RAG (sample notes)
+
+Standard RAG retrieves the top passages for a question once, passes them to the language model, and generates an
+answer. It is fast and cheap, and it works well for single-fact questions whose answer sits in one place.
+
+Agentic RAG puts the language model in control of the retrieval process. The agent plans before answering, decides
+whether retrieval is needed, rewrites weak queries, searches several times for different sub-questions, calls tools
+such as calculators or data analysis, and compares what it found before answering. It handles multi-step questions
+better, at the cost of more model calls, higher latency, and more tokens.
+
+Good practice for agentic systems: limit the number of steps, log every tool call so the reasoning can be audited,
+cite the passages behind each claim, and answer "I could not find this" when the knowledge base has no answer.

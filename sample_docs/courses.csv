@@ -1,0 +1,9 @@
+course,track,level,weeks,hours,price_egp,instructor
+Python for Data Analysis,Data,Beginner,6,36,4500,Mona Hassan
+SQL and Databases,Data,Beginner,4,24,3200,Karim Adel
+Power BI Dashboards,Data,Intermediate,5,30,4800,Mona Hassan
+Machine Learning Foundations,AI,Intermediate,8,56,7500,Omar Fathy
+Deep Learning with PyTorch,AI,Advanced,8,64,9200,Omar Fathy
+NLP and Transformers,AI,Advanced,6,48,8600,Laila Samir
+RAG and LLM Applications,AI,Advanced,5,40,9800,Laila Samir
+Flutter Mobile Development,Mobile,Intermediate,10,70,8900,Yara Nabil
